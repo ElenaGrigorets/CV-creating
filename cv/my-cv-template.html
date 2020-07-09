@@ -23,8 +23,8 @@
             margin: 15px;
         }
         .f-2 {
-            margin: 0.5em;
-            padding: 0.5em;
+            margin-top: 0.5em;
+            padding-top: 0.5em;
         }
         .flex1 {
             flex-basis: 60%;
@@ -34,7 +34,11 @@
             width: 40%;
         }
         header {
-            border-bottom: 1px solid black;
+            color: #234356;
+            border-bottom: 2px solid #234356;
+        }
+        h3, h4, a {
+            color: #234356;
         }
         ul {
             list-style: none;
@@ -55,8 +59,15 @@
             background-color: #234356;
             width: 100%;
             height: 10px;
+        }
+        .no-m-p {
             margin-bottom: 0;
+            margin-top: 0;
             padding-bottom: 0;
+            padding-top: 0;
+        }
+        .mtop {
+            margin-top: 10px;
         }
         span {
             font-size: x-small;
@@ -68,17 +79,15 @@
     <h2 class="marg"><i style="font-size: 24px; margin-right: 20px;" class="glyphicon glyphicon-user"></i>Olena Hryhorets</h2>
     <div class="f-box">
         <div class="f-2">
-            <ul>
+            <ul style="margin-left: 12px;">
                 <li><i class='fas'>&#xf015;</i></li>
                 <li><i class='fas'>&#xf0e0;</i></li>
                 <li><i class='fas'>&#xf879;</i>
-                    <!--                   <i style='font-size:24px' class='fas'>&#xf3cd;</i> -->
-
+                    <!-- <i style='font-size:24px' class='fas'>&#xf3cd;</i> -->
                 </li>
                 <li><i class='fab'>&#xf08c;</i></li>
                 <li><i class='fab'>&#xf17e;</i></li>
-
-                <!--               <li><i style='font-size:24px' class='fab'>&#xf09b;</i></li> -->
+                <!-- <li><i style='font-size:24px' class='fab'>&#xf09b;</i></li> -->
             </ul>
         </div>
         <div class="f-2">
@@ -120,44 +129,43 @@
             <div>
                 <h3><i style='marging-left:10px;' class='fas'>&#xf19d;</i>Education</h3>
                 Kharkiv national university of civil engineering and architecture, Kharkiv
-                Master's degree, Engineer for water supply and drainage, May 2009, graduated with honors
+                Master's degree, Engineer for water supply and drainage, May 2009, graduated with honors.
             </div>
         </div>
         <div class="flex2 marg">
-            <div><h4><i class="fas fa-bars"></i>Skills</h4>
-                <p>Java</p>
-                <div class="progress">
+            <div><h3 class="mtop" style="margin-top: 25px;"><i class="fas fa-bars"></i>Skills</h3>
+                <p class="no-m-p mtop">Java</p>
+                <div class="progress no-m-p">
                     <div class="progress-bar bg-info" style="width:50%;"></div>
                 </div><span>50%</span>
-                <p>JavaScript</p>
-                <div class="progress">
+                <p class="no-m-p mtop">JavaScript</p>
+                <div class="progress  no-m-p">
                     <div class="progress-bar bg-info" style="width:50%"></div>
-                </div><span>50%</span>
-                <p>HTML5</p>
-                <div class="progress">
+                </div><span class="no-m-p">50%</span>
+                <p class="no-m-p mtop">HTML5</p>
+                <div class="progress  no-m-p">
                     <div class="progress-bar bg-info" style="width:70%"></div>
                 </div><span>70%</span>
-                <p>CSS</p>
-                <div class="progress">
+                <p class="no-m-p mtop">CSS</p>
+                <div class="progress  no-m-p">
                     <div class="progress-bar bg-info" style="width:70%"></div>
                 </div><span>70%</span>
-                <p>Angular2+</p>
-                <div class="progress">
+                <p class="no-m-p mtop">Angular2+</p>
+                <div class="progress  no-m-p">
                     <div class="progress-bar bg-info" style="width:10%"></div>
                 </div><span>10%</span>
-
             </div>
-            <div><h4><i class='fas'>&#xf0ac;</i>Languages</h4>
-                <p>English</p>
-                <div class="progress">
+            <div><h3 class="mtop" style="margin-top: 25px;"><i class='fas'>&#xf0ac;</i>Languages</h3>
+                <p class="no-m-p mtop">English</p>
+                <div class="progress  no-m-p">
                     <div class="progress-bar bg-info" style="width:50%"></div>
                 </div><span>50%</span>
-                <p>Ukrainian</p>
-                <div class="progress">
+                <p class="no-m-p mtop">Ukrainian</p>
+                <div class="progress  no-m-p">
                     <div class="progress-bar bg-info" style="width:100%"></div>
                 </div><span>100%</span>
-                <p>Russian</p>
-                <div class="progress">
+                <p class="no-m-p mtop">Russian</p>
+                <div class="progress  no-m-p">
                     <div class="progress-bar bg-info" style="width:100%"></div>
                 </div><span>100%</span>
 
